@@ -5,12 +5,8 @@
 #ifndef BANDERAS_H
 #define BANDERAS_H
 
+extern bool errorFlag;
 
-
-class Banderas {
-
-};
-
-
+int divide(int a, int b);
 
 #endif //BANDERAS_H
