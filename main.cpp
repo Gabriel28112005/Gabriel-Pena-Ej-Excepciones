@@ -12,8 +12,6 @@ int main() {
         // Si ocurre un error, se establece la bandera de error
         std::cout<<"Ocurrio un error: division por cero."<<std::endl;
         errorFlag = true;
-
-        return 0;
     }
 
     //ejercicio 2
@@ -37,7 +35,7 @@ int main() {
             func3();
         }
     catch (const std::runtime_error& e) {
-            std::cout << "Excepción capturada en main: " << e.what() << std::endl;
+            std::cout << "Excepcion capturada en main: " << e.what() << std::endl;
         }
 
     return 0;
