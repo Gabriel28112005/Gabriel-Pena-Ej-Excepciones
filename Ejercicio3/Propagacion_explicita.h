@@ -1,4 +1,3 @@
-
 #ifndef PROPAGAR_H
 #define PROPAGAR_H
 

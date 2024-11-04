@@ -1,7 +1,3 @@
-//
-// Created by gapt2 on 24/10/2024.
-//
-
 #include "Propagacion_explicita.h"
 #include <iostream>
 #include <stdexcept>

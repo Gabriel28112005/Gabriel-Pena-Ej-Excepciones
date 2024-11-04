@@ -1,5 +1,3 @@
-
-
 #include <iostream>
 #include <stdexcept>
 #include "Ejercicio1/Banderas.h"

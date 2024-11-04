@@ -1,9 +1,4 @@
-//
-// Created by gapt2 on 24/10/2024.
-//
-
 #include "Excepciones.h"
-
 #include<iostream>
 #include<stdexcept>
 

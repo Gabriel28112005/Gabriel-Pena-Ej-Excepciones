@@ -1,4 +1,3 @@
-
 #ifndef REACTIVACION_H
 #define REACTIVACION_H
 

@@ -1,4 +1,3 @@
-
 #include "Reactivacion.h"
 #include <iostream>
 
