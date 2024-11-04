@@ -6,6 +6,7 @@
 #include "Ejercicio 4/Excepciones_personalizadas.h"
 #include "Ejercicio 5/Reactivacion.h"
 #include "Ejercicio 6/Excepciones_no_interpretadas.h"
+#include "Ejercicio 7/Adquisicion.h"
 
 int main() {
 
@@ -103,6 +104,19 @@ int main() {
     std::cout<<"    EJERCICIO 7:"<<std::endl;
     std::cout<<"-------------------"<<std::endl;
 
+    std::ofstream file("archivo.txt");
+
+    try {
+        file.close();
+        escribe(file);
+    }
+    catch (const std::runtime_error& e) {
+        std::cout << "Excepcion detectada: " << e.what() << std::endl;
+    }
+
+    if (file.is_open()) {
+        file.close();
+    }
 
     return 0;
 }
